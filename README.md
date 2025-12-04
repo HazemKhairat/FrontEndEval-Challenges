@@ -1,11 +1,11 @@
 # FrontEndEval Challenges
 
 A collection of frontend challenges solved using **HTML, CSS, and JavaScript**.  
-These challenges helped me practice UI building, DOM manipulation, and clean code structure.
+These challenges helped me practice UI building, DOM manipulation, and and JavaScript problem-solving through practical mini-projects.
 
 ---
 
-## 📸 Showcase
+## 📸 GIF Images (Animated Previews)
 
 ### ⏳ Countdown Timer
 <img src="https://github.com/user-attachments/assets/c4a47de2-6a04-4a5a-afe9-6a2d31408b41" width="650"/>
@@ -48,4 +48,3 @@ Open any `index.html` file directly in your browser.
 
 ---
 
-If you want them **bigger**, **smaller**, or arranged in a **grid**, just tell me!
