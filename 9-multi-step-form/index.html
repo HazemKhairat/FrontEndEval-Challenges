@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Multi-step form - Vanilla JS template</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="form">
+    <div class="step active">
+      <label>Name</label>
+      <input name="name" required type="text" minlength="3">
+      <button class="next">Next</button>
+    </div>
+
+    <div class="step">
+      <button class="back">&lt; Back</button>
+      <label>Email</label>
+      <input name="email" required type="email">
+      <button class="next"> Next </button>
+    </div>
+
+    <div class="step">
+      <button class="back">&lt; Back</button>
+      <label for="">Date</label>
+      <input name="date" required type="date">
+      <button class="next">Next</button>
+    </div>
+
+    <div class="step">
+      <button class="back">&lt; Back</button>
+      <label>Password</label>
+      <input name="password" required type="password" minlength="6">
+      <button class="submit">Submit</button>
+    </div>
+
+    <div class="success">
+      <h1>User Registered Successfully</h1>
+    </div>
+
+  </div>
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

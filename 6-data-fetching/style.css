@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+body {
+  padding-top: 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  margin: 0px auto;
+  position: relative;
+  border: 1px solid #ddd;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.x-axis {
+  width: 80%;
+  height: 2%;
+  position: absolute;
+  bottom: 8%;
+  left: 10%;
+  border-top: 2px solid black;
+}
+.x-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.x-numbers div {
+  font-size: 14px;
+  color: #333;
+}
+
+.y-axis {
+  width: 2%;
+  height: 80%;
+  position: absolute;
+  bottom: 10%;
+  left: 8.1%;
+  border-right: 2px solid black;
+}
+
+.y-numbers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.y-numbers div {
+  position: relative;
+  left: -10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.charts {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  border-top: 2px solid black;
+}
+
+.chart-list {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.chart {
+  width: 3%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4px 4px 0 0;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #2980b9;
+}

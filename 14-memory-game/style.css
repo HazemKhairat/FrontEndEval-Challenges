@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background: linear-gradient(135deg, #c3ec52, #0ba29d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1{
+  font-size: 3rem;
+  color: #333;
+}
+
+
+.cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  perspective: 1000px;
+}
+
+.card{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  cursor: pointer;  
+  transform-style: preserve-3d;
+  transition: 0.6s;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0,0, 0.2);
+}
+
+
+.card .front,
+.card .back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card .front{
+  background: linear-gradient(135deg, #ff7f50, #ff6347);
+}
+
+.card .back{
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  transform: rotateY(180deg);
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.card.flipped{
+  transform: rotateY(180deg);
+}
+
+.btn{
+  width: 220px;
+  padding: 12px 0px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 50px;
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s;
+  display: none;
+}
+
+.btn:hover{
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}

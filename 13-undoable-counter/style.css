@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background: #f5f6fa;
+  color: #2f3640;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+.header{
+  width: min(90%, 600px);
+  margin: auto;
+  text-align: center;
+}
+.header h1{
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.header .actions{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.controle{
+  width: min(90%, 600px);
+  margin: auto;
+}
+
+.subtract{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#counter{
+  font-size: 2rem;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+.btn{
+  cursor: pointer;
+  min-width: 55px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #40739e;
+  color: #fff;
+  font-weign: bold;
+  transition: 0.2s;
+  margin: 10px;
+}
+
+.btn:hover:not(:disabled){
+  background: #487eb0;
+}
+
+.btn:disabled{
+  background: #dcdde1;
+  cursor: not-allowed;
+}
+
+.history{
+  width: min(90%, 600px);
+  margin: auto;
+  text-align: center;
+}
+
+.history h2{
+  margin-bottom: 12px;
+}
+
+.history .content{
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  width: 60%;
+  height: max(30vh, 300px);
+  margin: auto;
+  overflow-y: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0 , 0.2);
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.row:last-child{
+  border-bottom: none;
+}
