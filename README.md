@@ -23,7 +23,7 @@ while strengthening my skills in **DOM manipulation** and overall **web developm
 
 ---
 
-## 🧠 Memory Game
+## 🧠 Memory Game (Medium)
 A classic card-matching game that tests memory and state management using DOM manipulation.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/14-memory-game/" target="_blank">
@@ -34,8 +34,8 @@ A classic card-matching game that tests memory and state management using DOM ma
 
 ---
 
-## 🔄 Undoable Counter
-A counter with undo functionality to practice state history and user actions tracking.
+## 🔄 Undoable Counter (Medium)
+A counter with undo/redo history to practice state tracking and UI updates.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/13-undoable-counter/" target="_blank">
   <img src="https://github.com/user-attachments/assets/806fe6ae-1fe5-4e17-8ce8-075be9cce0c6" width="420" alt="Undoable Counter Screenshot" />
@@ -45,8 +45,8 @@ A counter with undo functionality to practice state history and user actions tra
 
 ---
 
-## 🎲 Rolling Dice
-A simple dice rolling simulation focusing on randomization and UI updates.
+## 🎲 Rolling Dice (Medium)
+A dice roller that focuses on randomization and UI behavior.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/12-rolling-dice/" target="_blank">
   <img src="https://github.com/user-attachments/assets/27325922-68bf-43a9-b2d8-ec1872e47446" width="420" alt="Rolling Dice Screenshot" />
@@ -56,8 +56,8 @@ A simple dice rolling simulation focusing on randomization and UI updates.
 
 ---
 
-## 🕒 Analog Clock
-A real-time analog clock implemented using JavaScript timing and CSS transforms.
+## 🕒 Analog Clock (Medium)
+A real-time analog clock implemented using JavaScript timers and CSS transforms.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/11-Analog-clock/" target="_blank">
   <img src="https://github.com/user-attachments/assets/2e4f7ddb-412c-40f9-8e7c-e84ccdcd20e6" width="420" alt="Analog Clock Screenshot" />
@@ -67,8 +67,8 @@ A real-time analog clock implemented using JavaScript timing and CSS transforms.
 
 ---
 
-## 🔍 Debounced Search Engine
-A live search input optimized using debounce to reduce unnecessary function calls.
+## 🔍 Debounced Search Engine (Medium)
+A live search input optimized with debounce to reduce unnecessary calls.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/10-debounce/" target="_blank">
   <img src="https://github.com/user-attachments/assets/9bcba25c-255c-4b44-b81d-96a4174b7a66" width="420" alt="Debounced Search Engine Screenshot" />
@@ -78,8 +78,8 @@ A live search input optimized using debounce to reduce unnecessary function call
 
 ---
 
-## 🧾 Multi-Step Form
-A multi-step form with basic validation to simulate real-world form flows.
+## 🧾 Multi-Step Form (Medium)
+A multi-step form with basic validation to simulate real-world flows.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/09-multi-step-form/" target="_blank">
   <img src="https://github.com/user-attachments/assets/4300b27b-6233-4529-85c1-72c0eb2e29d4" width="420" alt="Multi-Step Form Screenshot" />
@@ -89,7 +89,7 @@ A multi-step form with basic validation to simulate real-world form flows.
 
 ---
 
-## 🔐 OTP Verification
+## 🔐 OTP Verification (Medium)
 An OTP input UI that handles auto-focus and keyboard navigation between inputs.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/08-two-factor-code-inupt/" target="_blank">
@@ -100,8 +100,8 @@ An OTP input UI that handles auto-focus and keyboard navigation between inputs.
 
 ---
 
-## 🖼️ Image Carousel
-An image slider with navigation controls to practice DOM updates and transitions.
+## 🖼️ Image Carousel (Medium)
+An image slider with navigation controls to practice DOM transitions.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/07-image-carousel/" target="_blank">
   <img src="https://github.com/user-attachments/assets/bb525649-9efb-4f1a-a6b0-8903a1f12587" width="420" alt="Image Carousel Screenshot" />
@@ -111,8 +111,8 @@ An image slider with navigation controls to practice DOM updates and transitions
 
 ---
 
-## 📊 Data Fetching & Visualization
-Fetching external data and rendering it dynamically in the UI.
+## 📊 Data Fetching & Visualization (Medium)
+Fetching external data and dynamically rendering charts or content.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/06-data-fetching/" target="_blank">
   <img src="https://github.com/user-attachments/assets/6edff2f3-8291-4b07-ac3e-c6b527d43bae" width="420" alt="Data Fetching Screenshot" />
@@ -122,7 +122,7 @@ Fetching external data and rendering it dynamically in the UI.
 
 ---
 
-## ⏳ Countdown Timer
+## ⏳ Countdown Timer (Easy)
 A countdown timer that updates the UI in real time based on user input.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/05-%20countdown%20timer/" target="_blank">
@@ -133,8 +133,8 @@ A countdown timer that updates the UI in real time based on user input.
 
 ---
 
-## 🏡 Mortgage Calculator
-A calculator that estimates mortgage payments based on user input values.
+## 🏡 Mortgage Calculator (Easy)
+A simple calculator estimating mortgage payments based on inputs.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/04-mortgage%20calculator/" target="_blank">
   <img src="https://github.com/user-attachments/assets/c4c410ae-1533-468e-951c-3f481aa1f6eb" width="420" alt="Mortgage Calculator Screenshot" />
@@ -144,7 +144,7 @@ A calculator that estimates mortgage payments based on user input values.
 
 ---
 
-## 🪟 Modal Overlay
+## 🪟 Modal Overlay (Easy)
 A reusable modal overlay component controlled via JavaScript.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/03-modal%20overlay/" target="_blank">
@@ -155,7 +155,7 @@ A reusable modal overlay component controlled via JavaScript.
 
 ---
 
-## ❓ FAQ Accordion
+## ❓ FAQ Accordion (Easy)
 An accordion-style FAQ component with toggle behavior.
 
 <a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/01-faq/" target="_blank">
