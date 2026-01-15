@@ -23,6 +23,29 @@ while strengthening my skills in **DOM manipulation** and overall **web developm
 
 ---
 
+
+## 📝 Word Game (Hard)
+A Wordle-inspired word guessing game where players try to guess a secret word in limited attempts, focusing on game logic, state management, and dynamic UI feedback.
+
+<a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/17-word-game/" target="_blank">
+  <img src="https://github.com/user-attachments/assets/3cbe2203-1512-467d-aeea-baede44c1b56" width="420" alt="Word Game Screenshot" />
+</a>
+
+🔗 **Live Demo:** [Try it here](https://hazemkhairat.github.io/FrontEndEval-Challenges/17-word-game/)
+
+---
+
+## 💰 Crypto Converter (Hard)
+A cryptocurrency converter that dynamically fetches exchange rates and calculates conversions in real time, focusing on asynchronous operations, API handling, and DOM updates.
+
+<a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/16-crypto-converter/" target="_blank">
+  <img src="https://github.com/user-attachments/assets/93ea96bd-41a7-488a-b5cc-a2fb019b2d95" width="420" alt="Crypto Converter Screenshot" />
+</a>
+
+🔗 **Live Demo:** [Try it here](https://hazemkhairat.github.io/FrontEndEval-Challenges/16-crypto-converter/)
+
+---
+
 ## 🛒 Shopping List (Medium)
 An interactive shopping list that allows users to add, remove, and manage items dynamically, focusing on state updates and DOM manipulation, while optimizing search with the debouncing technique.
 
@@ -182,4 +205,5 @@ Each project is contained in its own folder and includes:
 - `index.html`  
 - `style.css`  
 - `script.js`
+
 
