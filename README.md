@@ -23,6 +23,17 @@ while strengthening my skills in **DOM manipulation** and overall **web developm
 
 ---
 
+## 🛒 Shopping List (Medium)
+An interactive shopping list that allows users to add, remove, and manage items dynamically, focusing on state updates and DOM manipulation, while optimizing search with the debouncing technique.
+
+<a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/15-shopping-list/" target="_blank">
+  <img src="https://github.com/user-attachments/assets/14475d7b-0695-4bb2-a2e7-df8b34014647" width="420" alt="Shopping List Screenshot" />
+</a>
+
+🔗 **Live Demo:** [Try it here](https://hazemkhairat.github.io/FrontEndEval-Challenges/15-shopping-list/)
+
+---
+
 ## 🧠 Memory Game (Medium)
 A classic card-matching game that tests memory and state management using DOM manipulation.
 
@@ -171,3 +182,4 @@ Each project is contained in its own folder and includes:
 - `index.html`  
 - `style.css`  
 - `script.js`
+
