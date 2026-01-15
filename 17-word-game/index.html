@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Memory game - Vanilla JS template</title>
+    <title>Word game - Vanilla JS template</title>
     <link rel="stylesheet" href="./style.css">
 
   </head>
@@ -15,19 +15,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Game</title>
+  <title>Document</title>
 </head>
 <body>
   
   <div class="container">
-    <h1>Memory Game</h1>
-    <div id="cards" class="cards">
+    <div id="sucess" class="status success"></div>
+    <div id="faild" class="status fail"></div>
+    
+    <h1>You have 6 guesses remaining</h1>
+    <input id="inp" type="text" placeholder="Guess The Word">
+    <div class="res" id="res">
       
     </div>
-    
-    <button id="btn" class="btn">
-      Play Again
-    </button>
+    <button id="btn">Play Again</button>
   </div>
 </body>
 </html>

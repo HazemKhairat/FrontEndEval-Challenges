@@ -70,13 +70,13 @@ body{
 }
 .row{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 نرد في الصف */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
 }
 
 .dice{
   width: 100%;
-  aspect-ratio: 1/1; /* مربّع */
+  aspect-ratio: 1/1;
   border: 2px solid #222;
   border-radius: 12px;
   display: grid;

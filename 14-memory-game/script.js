@@ -24,6 +24,7 @@ function shuffle(arr) {
 document.addEventListener("DOMContentLoaded", () => {
   cnt = 18;
   numbers = shuffle(numbers);
+  console.log(numbers);
   createCards();
 });
 
@@ -72,7 +73,7 @@ function createCards() {
             c2.classList.toggle("flipped");
           }
           used = [];
-        }, 1500);
+        }, 1000);
       }
     });
 

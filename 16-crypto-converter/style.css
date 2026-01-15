@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+body{
+  background: #f4f7f6;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.card{
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+input, select{
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus, select:focus{
+  border-color: #3498db;
+}
+
+.result-section{
+  text-align: left;
+}
+
+.main-value{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+#res{
+  font-size: 48px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.unit{
+  font-size: 20px;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.indicator{
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #95a5a6;
+}
