@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+}
+
+.container {
+  background: #111827;
+  padding: 24px 28px 28px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border: 2px solid #475569; 
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+#h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #f3f4f6;
+}
+
+#curr_color {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #020617;
+}
+
+#curr_color.red {
+  background: #ff4757;
+}
+
+#curr_color.yellow {
+  background: #ffa502;
+}
+
+#resetBtn {
+  margin: 12px 0px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+#resetBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(46, 204, 113, 0.4);
+}
+
+.drop-btns {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin: 14px 0px;
+}
+
+.drop-btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #334155;
+  color: #e5e7eb;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.drop-btn:hover:not(:disabled) {
+  background: #475569;
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
+.drop-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(7, 56px);
+  grid-template-rows: repeat(6, 56px);
+  gap: 10px;
+  background: #2563eb;
+  padding: 14px;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 4px #1d4ed8;
+}
+
+.cell {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #0a0f1e;
+  box-shadow: inset 0 6px 12px rgba(255, 255, 255, 0.05),
+    inset 0 -6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.cell.red {
+  background: radial-gradient(circle at top, #ff6b6b, #c0392b);
+}
+
+.cell.yellow {
+  background: radial-gradient(circle at top, #ffe66d, #f1c40f);
+}
+
+.hide {
+  display: none;
+}
+
+.cell.mark::after {
+  content: "★";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}

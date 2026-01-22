@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f7fa;
+  font-family: "Segoe UI";
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 32px);
+  gap: 4px;
+  padding: 12px;
+  background: #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  transition: 0.15s ease;
+}
+
+.cell:hover {
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.cell.selected {
+  background: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+}
+
+.selection-box {
+  position: fixed;
+  border: 2px dashed #2563eb;
+  background: rgba(37, 99, 235, 0.15);
+  pointer-events: none;
+  border-radius: 6px;
+  z-index: 1000;
+}
