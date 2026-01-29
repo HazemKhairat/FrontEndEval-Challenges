@@ -32,17 +32,17 @@ This challenge focuses on **game logic, data structures, state management, keybo
   <img 
     src="https://github.com/user-attachments/assets/1b86e613-8a7b-43cc-bddd-f929edcb5098"
     alt="Snake Game Start"
-    style="width:32%; height:270px; object-fit:cover;"
+    style="width:30%; height:270px; object-fit:cover;"
   />
   <img 
     src="https://github.com/user-attachments/assets/ea1e1148-f014-4945-b8e7-2b5bb2a28340"
     alt="Snake Game Playing"
-    style="width:32%; height:270px; object-fit:cover;"
+    style="width:35%; height:270px; object-fit:cover;"
   />
   <img 
     src="https://github.com/user-attachments/assets/fcb5518a-a15f-49cf-8fdd-be0a39112ccf"
     alt="Snake Game Over"
-    style="width:32%; height:270px; object-fit:cover;"
+    style="width:30%; height:270px; object-fit:cover;"
   />
 </a>
 
@@ -281,6 +281,7 @@ Each project is contained in its own folder and includes:
 - `index.html`  
 - `style.css`  
 - `script.js`
+
 
 
 
