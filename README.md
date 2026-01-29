@@ -23,6 +23,33 @@ while strengthening my skills in **DOM manipulation** and overall **web developm
 
 ---
 
+## 🐍 Snake Game ![Hard](https://img.shields.io/badge/Difficulty-Hard-red)
+A classic Snake game built with vanilla JavaScript, featuring smooth keyboard controls, real-time movement, collision detection, and score tracking. The snake grows as it consumes food, and the game ends upon hitting walls or itself.
+
+This challenge focuses on **game logic, data structures, state management, keyboard event handling, grid-based movement, and DOM manipulation**, while ensuring responsive controls and consistent game performance.
+
+<a href="https://hazemkhairat.github.io/FrontEndEval-Challenges/22-snake-game/" target="_blank" style="display:flex; gap:8px;">
+  <img 
+    src="https://github.com/user-attachments/assets/1b86e613-8a7b-43cc-bddd-f929edcb5098"
+    alt="Snake Game Start"
+    style="width:33%; height:280px; object-fit:cover;"
+  />
+  <img 
+    src="https://github.com/user-attachments/assets/ea1e1148-f014-4945-b8e7-2b5bb2a28340"
+    alt="Snake Game Playing"
+    style="width:33%; height:280px; object-fit:cover;"
+  />
+  <img 
+    src="https://github.com/user-attachments/assets/fcb5518a-a15f-49cf-8fdd-be0a39112ccf"
+    alt="Snake Game Over"
+    style="width:33%; height:280px; object-fit:cover;"
+  />
+</a>
+
+
+🔗 **Live Demo:** [Try it here](https://hazemkhairat.github.io/FrontEndEval-Challenges/22-snake-game/)
+
+---
 ## 🔴🟡 Connect Four ![Hard](https://img.shields.io/badge/Difficulty-Hard-red)
 A classic two-player Connect Four game implemented with JavaScript. Players alternate turns dropping red and yellow tokens into a 7×6 board, with tokens stacking in the lowest available position. The game detects wins horizontally, vertically, or diagonally, declares a winner, handles draws, and provides a "Play Again" option for restarting.
 
@@ -254,3 +281,4 @@ Each project is contained in its own folder and includes:
 - `index.html`  
 - `style.css`  
 - `script.js`
+
